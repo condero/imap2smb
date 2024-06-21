@@ -1,0 +1,1 @@
+*/5 * * * * cd /usr/src/app && /usr/local/bin/node index.js >> /var/log/cron.log 2>&1

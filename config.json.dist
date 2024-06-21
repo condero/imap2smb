@@ -1,0 +1,15 @@
+{
+  "email": {
+    "user": "fax@example.com",
+    "password": "PassWoRD123!",
+    "host": "mx.example.com",
+    "port": 993,
+    "tls": true
+  },
+  "smb": {
+    "share": "\\\\192.168.1.100\\fax",
+    "domain": "WORKGROUP",
+    "username": "fax",
+    "password": "pASSwOrd321?"
+  }
+}
