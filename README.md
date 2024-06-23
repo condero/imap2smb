@@ -1,4 +1,4 @@
-# fax2imap2smb
+# imap2smb
 
 ## Bauen Sie das Docker-Image:
 docker build -t fax-email-processor .
