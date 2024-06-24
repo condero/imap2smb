@@ -1,13 +1,13 @@
 {
-  "name": "fax",
+  "name": "imap2smb",
   "version": "1.0.0",
-  "description": "",
+  "description": "imap2smb is an app that checks emails w/PDFs & saves them to SMB drives.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@marsaud/smb2": "^0.18.0",
     "base64-stream": "^1.0.0",
