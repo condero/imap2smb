@@ -1,6 +1,6 @@
 {
   "name": "imap2smb",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "imap2smb is an app that checks emails w/PDFs & saves them to SMB drives.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@marsaud/smb2": "^0.18.0",
+    "@tryjsky/v9u-smb2": "^1.1.0",
     "base64-stream": "^1.0.0",
     "fs": "^0.0.1-security",
     "imap": "^0.8.19",
