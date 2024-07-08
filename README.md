@@ -30,8 +30,8 @@ IMAP2SMB is an application designed to regularly check a specific email account 
 
 1. Clone the repository:
 
-```git clone https://github.com/condero/imap2smb.git```
-```cd imap2smb```
+`git clone https://github.com/condero/imap2smb.git`
+`cd imap2smb`
 
 2. Install dependencies:
 
@@ -58,39 +58,47 @@ IMAP2SMB is an application designed to regularly check a specific email account 
 ## Usage
 
 ### Running Locally
+
 To run the application locally:
 
-```node index.js```
+`node index.js`
 
 ### Running with Docker
+
 Build the Docker image:
 
-```docker build -t imap2smb .```
+`docker buildx build --platform linux/amd64,linux/arm64 --push -t condero/imap2smb:1.1.0 .`
 
 Run the Docker container:
 
-```docker run -d --name imap2smb imap2smb```
+`docker run -d --name imap2smb imap2smb`
 
 Check logs the Docker container:
 
-```docker logs -f imap2smb```
+`docker logs -f imap2smb`
 
 ### Configuration
+
 The application uses a config.json file for configuration. Ensure this file is properly set up with your IMAP and SMB credentials before running the application.
 
 ### Debugging
+
 To enable debug mode, set the DEBUG environment variable to true:
 
-```DEBUG=true node index.js```
+`DEBUG=true node index.js`
 
 ### Cron Job
+
 The application is set up to run every 5 minutes using a cron job within the Docker container. The cron job configuration can be found in the run.sh script.
 
 ## License
+
 MIT
 
 ## Contributing
+
 Contributions to IMAP2SMB are welcome. Please ensure you follow the existing code style and include appropriate tests for new features.
 
 ## Support
+
 For issues and feature requests, please file an issue on the GitHub repository.
